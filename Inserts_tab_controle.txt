@@ -1,0 +1,165 @@
+Insert into TAB_ACOES (ID_ACAO,ID_CT,ID_SQL,COLUNA_IDX,TABELA_IDX,TIPO_ACAO,COMANDO_ACAO,NO_QUERIES_AFETADAS,NOME_IDX,ID_CROMO,STATUS_ACOES) values ('277','1','37','l_shipdate','h_lineitem','10','exemplo comando acao','3','idx_l_shipdateh_lineitem10','2197','Aplica Outro');
+Insert into USRTPC1.TAB_ACOES (ID_ACAO,ID_CT,ID_SQL,COLUNA_IDX,TABELA_IDX,TIPO_ACAO,COMANDO_ACAO,NO_QUERIES_AFETADAS,NOME_IDX,ID_CROMO,STATUS_ACOES) values ('278','1','38','l_commitdate','h_lineitem','10','exemplo comando acao','1','idx_l_commitdateh_lineitem10','2199','Aplicar');
+Insert into USRTPC1.TAB_ACOES (ID_ACAO,ID_CT,ID_SQL,COLUNA_IDX,TABELA_IDX,TIPO_ACAO,COMANDO_ACAO,NO_QUERIES_AFETADAS,NOME_IDX,ID_CROMO,STATUS_ACOES) values ('279','1','38','l_receiptdate','h_lineitem','10','exemplo comando acao','1','idx_l_receiptdateh_lineitem10','2201','Aplicar');
+Insert into USRTPC1.TAB_ACOES (ID_ACAO,ID_CT,ID_SQL,COLUNA_IDX,TABELA_IDX,TIPO_ACAO,COMANDO_ACAO,NO_QUERIES_AFETADAS,NOME_IDX,ID_CROMO,STATUS_ACOES) values ('280','1','38','l_shipdate','h_lineitem','10','exemplo comando acao','3','idx_l_shipdateh_lineitem10','2202','Aplica Outro');
+Insert into USRTPC1.TAB_ACOES (ID_ACAO,ID_CT,ID_SQL,COLUNA_IDX,TABELA_IDX,TIPO_ACAO,COMANDO_ACAO,NO_QUERIES_AFETADAS,NOME_IDX,ID_CROMO,STATUS_ACOES) values ('281','1','39','l_shipdate','h_lineitem','10','exemplo comando acao','3','idx_l_shipdateh_lineitem10','2206','Aplicar');
+
+
+==============================================================================================
+
+Insert into USRTPC1.TAB_MENSAGENS (ID_MSG,ID_SQL,CUSTO_PRE,CUSTO_POS,TEMPO_INI_PRE,TEMPO_FIM_PRE,TEMPO_INI_POS,TEMPO_FIM_POS,TEMPO_TOT_PRE,TEMPO_TOT_POS,NO_REGRAS_APLIC,MELHORIA_DES_PERCENT,SITUACAO,ID_CT) values ('37','37','31572',null,to_timestamp('20/12/16 19:10:06,000000000','DD/MM/RR HH24:MI:SSXFF'),to_timestamp('20/12/16 19:10:08,000000000','DD/MM/RR HH24:MI:SSXFF'),null,null,'2',null,null,null,'EM ABERTO','3');
+Insert into USRTPC1.TAB_MENSAGENS (ID_MSG,ID_SQL,CUSTO_PRE,CUSTO_POS,TEMPO_INI_PRE,TEMPO_FIM_PRE,TEMPO_INI_POS,TEMPO_FIM_POS,TEMPO_TOT_PRE,TEMPO_TOT_POS,NO_REGRAS_APLIC,MELHORIA_DES_PERCENT,SITUACAO,ID_CT) values ('38','38','38955',null,to_timestamp('20/12/16 19:11:03,000000000','DD/MM/RR HH24:MI:SSXFF'),to_timestamp('20/12/16 19:11:05,000000000','DD/MM/RR HH24:MI:SSXFF'),null,null,'2',null,null,null,'EM ABERTO','3');
+Insert into USRTPC1.TAB_MENSAGENS (ID_MSG,ID_SQL,CUSTO_PRE,CUSTO_POS,TEMPO_INI_PRE,TEMPO_FIM_PRE,TEMPO_INI_POS,TEMPO_FIM_POS,TEMPO_TOT_PRE,TEMPO_TOT_POS,NO_REGRAS_APLIC,MELHORIA_DES_PERCENT,SITUACAO,ID_CT) values ('34','34','31485',null,to_timestamp('20/12/16 05:37:59,000000000','DD/MM/RR HH24:MI:SSXFF'),to_timestamp('20/12/16 05:38:07,000000000','DD/MM/RR HH24:MI:SSXFF'),null,null,'8',null,null,null,'EM ABERTO','1');
+Insert into USRTPC1.TAB_MENSAGENS (ID_MSG,ID_SQL,CUSTO_PRE,CUSTO_POS,TEMPO_INI_PRE,TEMPO_FIM_PRE,TEMPO_INI_POS,TEMPO_FIM_POS,TEMPO_TOT_PRE,TEMPO_TOT_POS,NO_REGRAS_APLIC,MELHORIA_DES_PERCENT,SITUACAO,ID_CT) values ('35','35','43673',null,to_timestamp('20/12/16 05:38:47,000000000','DD/MM/RR HH24:MI:SSXFF'),to_timestamp('20/12/16 05:38:50,000000000','DD/MM/RR HH24:MI:SSXFF'),null,null,'3',null,null,null,'EM ABERTO','1');
+Insert into USRTPC1.TAB_MENSAGENS (ID_MSG,ID_SQL,CUSTO_PRE,CUSTO_POS,TEMPO_INI_PRE,TEMPO_FIM_PRE,TEMPO_INI_POS,TEMPO_FIM_POS,TEMPO_TOT_PRE,TEMPO_TOT_POS,NO_REGRAS_APLIC,MELHORIA_DES_PERCENT,SITUACAO,ID_CT) values ('36','36','45399',null,to_timestamp('20/12/16 05:39:53,000000000','DD/MM/RR HH24:MI:SSXFF'),to_timestamp('20/12/16 05:40:04,000000000','DD/MM/RR HH24:MI:SSXFF'),null,null,'11',null,null,null,'EM ABERTO','2');
+Insert into USRTPC1.TAB_MENSAGENS (ID_MSG,ID_SQL,CUSTO_PRE,CUSTO_POS,TEMPO_INI_PRE,TEMPO_FIM_PRE,TEMPO_INI_POS,TEMPO_FIM_POS,TEMPO_TOT_PRE,TEMPO_TOT_POS,NO_REGRAS_APLIC,MELHORIA_DES_PERCENT,SITUACAO,ID_CT) values ('39','39','31572',null,to_timestamp('23/12/16 14:19:30,000000000','DD/MM/RR HH24:MI:SSXFF'),to_timestamp('23/12/16 14:19:31,000000000','DD/MM/RR HH24:MI:SSXFF'),null,null,'1',null,null,null,'EM ABERTO','3');
+
+========================================================
+
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('15','1','0','0','1','01','0','00','00','00','00','11','0','10','79,27567');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('16','1','0','#','#','##','0','01','00','00','00','11','#','10','108,7458');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('1','0','0','#','#','##','#','##','##','11','##','00','#','10','108,7458');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('2','0','0','#','#','##','#','##','##','00','##','00','#','01','108,7458');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('3','0','0','#','1','##','#','##','##','11','##','00','#','10','108,7458');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('4','1','0','#','#','##','#','##','##','10','##','01','#','10','108,7458');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('5','1','0','#','#','##','#','##','##','01','##','10','#','01','108,7458');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('6','1','#','#','1','##','#','##','##','10','##','00','#','10','108,7458');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('7','0','1','#','1','01','0','##','11','##','00','01','#','10','108,7458');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('8','1','1','#','#','##','#','##','##','00','11','10','#','01','108,7458');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('9','1','#','#','#','10','#','11','##','00','##','##','0','10','108,7458');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('10','0','0','#','#','##','#','##','##','01','##','01','#','01','108,7458');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('11','1','0','#','#','00','0','##','##','11','00','00','#','10','108,7458');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('12','1','0','#','#','00','0','##','##','10','00','00','#','10','108,7458');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('13','1','0','#','#','00','0','##','##','10','00','01','#','10','108,7458');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('14','1','0','#','#','00','0','##','##','11','00','01','#','10','108,7458');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('17','1','0','0','#','01','0','##','##','##','00','11','#','10','108,7458');
+Insert into USRTPC1.TAB_REGRAS (ID_REGRA,CB1,CB2,CB3,CB4,CB5,CB6,CB7,CB8,CB9,CB10,CB11,CB12,ACAO,ENERGIA) values ('18','1','0','#','#','##','0','##','00','00','00','##','#','10','108,7458');
+
+=======================================================================
+
+Insert into USRTPC1.TAB_SQLS (ID_SQL,TEXTO_SQL,ID_REGRA_APLIC,ID_CT) values ('37','SELECT 100.00 * sum(case when p_type like ''PROMO%''  
+then l_extendedprice * (1 - l_discount) else 0 end ) / sum(l_extendedprice * (1 - l_discount)) as promo_revenue
+FROM H_lineitem, H_part
+WHERE H_lineitem.l_partkey = H_part.p_partkey and H_lineitem.l_shipdate >=   TO_DATE (''19960201'',''YYYYMMDD'')
+and H_lineitem.l_shipdate <   TO_DATE (''19960201'',''YYYYMMDD'') + interval ''1''    month',null,'3');
+Insert into USRTPC1.TAB_SQLS (ID_SQL,TEXTO_SQL,ID_REGRA_APLIC,ID_CT) values ('38','SELECT l_shipmode, sum(case when o_orderpriority = ''1-URGENT''  
+or o_orderpriority = ''2-HIGH''   then 1 else 0 end) as high_line_count,
+sum(case when o_orderpriority <>  ''1-URGENT''
+and o_orderpriority <> ''2-HIGH''
+then 1 else 0 end) as low_line_count
+FROM h_order, h_lineitem
+WHERE h_order.o_orderkey = h_lineitem.l_orderkey and h_lineitem.l_shipmode in (  ''TRUCK'' , ''AIR'' )
+and h_lineitem.l_commitdate < h_lineitem.l_receiptdate and h_lineitem.l_shipdate < h_lineitem.l_commitdate
+and h_lineitem.l_receiptdate >= TO_DATE (''19960101'',''YYYYMMDD'')   
+and h_lineitem.l_receiptdate < TO_DATE (''19960101'',''YYYYMMDD'')   + interval ''1''  year
+GROUP BY h_lineitem.l_shipmode
+ORDER BY h_lineitem.l_shipmode',null,'3');
+Insert into USRTPC1.TAB_SQLS (ID_SQL,TEXTO_SQL,ID_REGRA_APLIC,ID_CT) values ('34','SELECT l_returnflag,l_linestatus, sum(l_quantity) as sum_qty,
+  sum(l_extendedprice) as sum_base_price,
+  sum(l_extendedprice * (1 - l_discount)) as sum_disc_price,
+  sum(l_extendedprice * (1 - l_discount) * (1 + l_tax))
+  as sum_charge,
+  avg(l_quantity) as avg_qty, avg(l_extendedprice) as avg_price,
+  avg(l_discount) as avg_disc, count(*) as count_order
+  FROM H_lineitem
+  WHERE H_lineitem.l_shipdate <= TO_DATE (''1998/12/01'',''YYYY/MM/DD'') - interval ''10'' day
+  GROUP BY H_lineitem.l_returnflag, H_lineitem.l_linestatus
+  ORDER BY H_lineitem.l_returnflag, H_lineitem.l_linestatus',null,'1');
+Insert into USRTPC1.TAB_SQLS (ID_SQL,TEXTO_SQL,ID_REGRA_APLIC,ID_CT) values ('35','SELECT n_name, sum(l_extendedprice * (1 - l_discount)) as revenue
+FROM h_customer, h_order, h_lineitem, h_supplier, h_nation, h_region
+WHERE h_customer.c_custkey = h_order.o_custkey and h_lineitem.l_orderkey = h_order.o_orderkey
+and h_lineitem.l_suppkey = h_supplier.s_suppkey and h_customer.c_nationkey = h_supplier.s_nationkey
+and h_supplier.s_nationkey = h_nation.n_nationkey and h_nation.n_regionkey = h_region.r_regionkey
+and h_region.r_name = ''AMERICA''  and h_order.o_orderdate >= TO_DATE (''19910801'',''YYYYMMDD'')
+and h_order.o_orderdate < TO_DATE (''19910801'',''YYYYMMDD'') + interval ''1'' year
+GROUP BY h_nation.n_name',null,'1');
+Insert into USRTPC1.TAB_SQLS (ID_SQL,TEXTO_SQL,ID_REGRA_APLIC,ID_CT) values ('36','SELECT c_custkey, c_name,sum(l_extendedprice * (1 - l_discount)) as revenue,
+c_acctbal, n_name, c_address, c_phone, c_comment FROM h_customer, H_order, h_lineitem, h_nation
+WHERE h_customer.c_custkey = H_order.o_custkey and h_lineitem.l_orderkey = H_order.o_orderkey
+and H_order.o_orderdate >= TO_DATE (''19920801'',''YYYYMMDD'') 
+and H_order.o_orderdate <   TO_DATE (''19920801'',''YYYYMMDD'') + interval ''3'' month
+and h_lineitem.l_returnflag = ''N'' and h_customer.c_nationkey = h_nation.n_nationkey
+GROUP BY h_customer.c_custkey, h_customer.c_name, h_customer.c_acctbal, h_customer.c_phone, h_nation.n_name, h_customer.c_address,
+h_customer.c_comment',null,'2');
+Insert into USRTPC1.TAB_SQLS (ID_SQL,TEXTO_SQL,ID_REGRA_APLIC,ID_CT) values ('39','SELECT 100.00 * sum(case when p_type like ''PROMO%''  
+then l_extendedprice * (1 - l_discount) else 0 end ) / sum(l_extendedprice * (1 - l_discount)) as promo_revenue
+FROM H_lineitem, H_part
+WHERE H_lineitem.l_partkey = H_part.p_partkey and H_lineitem.l_shipdate >=   TO_DATE (''19960201'',''YYYYMMDD'')
+and H_lineitem.l_shipdate <   TO_DATE (''19960201'',''YYYYMMDD'') + interval ''1''    month',null,'3');
+
+==============================================================================================
+
+
+  CREATE TABLE "USRTPC1"."TAB_PLAN_EXEC_POS" 
+   (	"STATEMENT_ID" VARCHAR2(30 BYTE), 
+	"TIMESTAMP" DATE, 
+	"REMARKS" VARCHAR2(80 BYTE), 
+	"OPERATION" VARCHAR2(30 BYTE), 
+	"OPTIONS" VARCHAR2(30 BYTE), 
+	"OBJECT_NODE" VARCHAR2(128 BYTE), 
+	"OBJECT_OWNER" VARCHAR2(30 BYTE), 
+	"OBJECT_NAME" VARCHAR2(30 BYTE), 
+	"OBJECT_INSTANCE" NUMBER(*,0), 
+	"OBJECT_TYPE" VARCHAR2(30 BYTE), 
+	"OPTIMIZER" VARCHAR2(255 BYTE), 
+	"SEARCH_COLUMNS" NUMBER(*,0), 
+	"ID" NUMBER(*,0), 
+	"PARENT_ID" NUMBER(*,0), 
+	"POSITION" NUMBER(*,0), 
+	"COST" NUMBER(*,0), 
+	"CARDINALITY" NUMBER(*,0), 
+	"BYTES" NUMBER(*,0), 
+	"OTHER_TAG" VARCHAR2(255 BYTE), 
+	"PARTITION_START" VARCHAR2(255 BYTE), 
+	"PARTITION_STOP" VARCHAR2(255 BYTE), 
+	"PARTITION_ID" NUMBER(*,0), 
+	"OTHER" LONG, 
+	"DISTRIBUTION" VARCHAR2(30 BYTE), 
+	"NOME_COL_REF" VARCHAR2(100 BYTE)
+   ) PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT)
+  TABLESPACE "USERS" ;
+REM INSERTING into USRTPC1.TAB_PLAN_EXEC_POS
+SET DEFINE OFF;
+
+----------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table TAB_PLAN_EXEC_PRE
+--------------------------------------------------------
+
+  CREATE TABLE "USRTPC1"."TAB_PLAN_EXEC_PRE" 
+   (	"STATEMENT_ID" VARCHAR2(30 BYTE), 
+	"TIMESTAMP" DATE, 
+	"REMARKS" VARCHAR2(80 BYTE), 
+	"OPERATION" VARCHAR2(30 BYTE), 
+	"OPTIONS" VARCHAR2(30 BYTE), 
+	"OBJECT_NODE" VARCHAR2(128 BYTE), 
+	"OBJECT_OWNER" VARCHAR2(30 BYTE), 
+	"OBJECT_NAME" VARCHAR2(30 BYTE), 
+	"OBJECT_INSTANCE" NUMBER(*,0), 
+	"OBJECT_TYPE" VARCHAR2(30 BYTE), 
+	"OPTIMIZER" VARCHAR2(255 BYTE), 
+	"SEARCH_COLUMNS" NUMBER(*,0), 
+	"ID" NUMBER(*,0), 
+	"PARENT_ID" NUMBER(*,0), 
+	"POSITION" NUMBER(*,0), 
+	"COST" NUMBER(*,0), 
+	"CARDINALITY" NUMBER(*,0), 
+	"BYTES" NUMBER(*,0), 
+	"OTHER_TAG" VARCHAR2(255 BYTE), 
+	"PARTITION_START" VARCHAR2(255 BYTE), 
+	"PARTITION_STOP" VARCHAR2(255 BYTE), 
+	"PARTITION_ID" NUMBER(*,0), 
+	"OTHER" LONG, 
+	"DISTRIBUTION" VARCHAR2(30 BYTE)
+   ) PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT)
+  TABLESPACE "USERS" ;
+REM INSERTING into USRTPC1.TAB_PLAN_EXEC_PRE
+SET DEFINE OFF;
+
+
+
+
